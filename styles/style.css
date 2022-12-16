@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+}
+
+.question,
+.link {
+  font-size: 20px;
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(191, 238, 238);
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgb(215, 212, 212);
+  cursor: pointer;
+}
+
+.question:hover,
+.link:hover {
+  box-shadow: 1px 1px 10px rgb(182, 180, 180);
+}
